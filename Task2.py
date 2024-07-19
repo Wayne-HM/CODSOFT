@@ -1,6 +1,6 @@
 #Task2-Basic Arithmetical Operations Simple Calculator 
-b=int(input("Enter first number:"))
-c=int(input("Enter second number:"))
+num1=int(input("Enter first number:"))
+num2=int(input("Enter second number:"))
 print("""\nCalculator Menu:
 1.Addition
 2.Subtraction
@@ -9,17 +9,17 @@ print("""\nCalculator Menu:
 5.Exit""")
 a=input("Enter Your Choice:")
 if a=="1":
-    print("Addition of",b,"and",c)
-    print("Result:",b+c)
+    print("Addition of",num1,"and",num2)
+    print("Result:",num1+num2)
 elif a=="2":
-    print("Subtraction of",b,"and",c)
-    print("Result:",b-c)
+    print("Subtraction of",num1,"and",num2)
+    print("Result:",num1-num2)
 elif a=="3":
-    print("Multiplication of",b,"and",c)
-    print("Result:",b*c)
+    print("Multiplication of",num1,"and",num2)
+    print("Result:",num1*num2)
 elif a=="4":
-    print("Division of",b,"and",c)
-    print("Result:",b/c)
+    print("Division of",num1,"and",num2)
+    print("Result:",num1/num2)
 elif a=="5":
     print("Exiting....")
 else:
